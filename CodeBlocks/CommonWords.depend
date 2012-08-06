@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1344257778 source:/Users/localadmin/Documents/School/Computer Science/Intro to C/CommonWords/CommonWords_linked.c
+	"libword.h"
+
+1344257495 /Users/localadmin/Documents/School/Computer Science/Intro to C/CommonWords/libword.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1344214984 source:/Users/localadmin/Documents/School/Computer Science/Intro to C/CommonWords/CommonWords_main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1344257778 source:/Users/localadmin/Documents/School/Computer Science/Intro to C/CommonWords/libword.c
+	"libword.h"
+
