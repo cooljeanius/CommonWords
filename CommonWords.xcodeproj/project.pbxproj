@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* CommonWords_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* CommonWords_main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* CommonWords.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* CommonWords.1 */; };
+		A5BDBBD515CFF4B500CC3D00 /* libword.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BDBBD315CFF4B500CC3D00 /* libword.h */; };
+		A5BDBBD615CFF4B500CC3D00 /* libword.c in Sources */ = {isa = PBXBuildFile; fileRef = A5BDBBD415CFF4B500CC3D00 /* libword.c */; };
+		A5BDBBD715CFF4B500CC3D00 /* libword.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BDBBD315CFF4B500CC3D00 /* libword.h */; };
+		A5BDBBD815CFF4B500CC3D00 /* libword.c in Sources */ = {isa = PBXBuildFile; fileRef = A5BDBBD415CFF4B500CC3D00 /* libword.c */; };
+		A5BDBC0615CFF5BB00CC3D00 /* CommonWords_linked.c in Sources */ = {isa = PBXBuildFile; fileRef = A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */; };
+		A5BDBC0B15CFF60B00CC3D00 /* libword.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BDBBB815CFF42A00CC3D00 /* libword.dylib */; };
+		A5BDBC0C15CFF60B00CC3D00 /* libword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BDBBC115CFF43E00CC3D00 /* libword.a */; };
+		A5D2B84815CEEB1E002209B5 /* input.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5D2B83F15CEEA80002209B5 /* input.dat */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BDBC0715CFF5F700CC3D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BDBBC015CFF43E00CC3D00 /* libword_static */;
+			remoteInfo = libword_static;
+		};
+		A5BDBC0915CFF5F700CC3D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BDBBB715CFF42A00CC3D00 /* libword_dynamic */;
+			remoteInfo = libword_dynamic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* CommonWords.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A5D2B84D15CEEBC0002209B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = .;
+			dstSubfolderSpec = 16;
+			files = (
+				A5D2B84815CEEB1E002209B5 /* input.dat in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* CommonWords_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonWords_main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* CommonWords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonWords; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDBBB815CFF42A00CC3D00 /* libword.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libword.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDBBC115CFF43E00CC3D00 /* libword.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libword.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDBBD315CFF4B500CC3D00 /* libword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libword.h; sourceTree = "<group>"; };
+		A5BDBBD415CFF4B500CC3D00 /* libword.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libword.c; sourceTree = "<group>"; };
+		A5BDBBFE15CFF59700CC3D00 /* CommonWords_linked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonWords_linked; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonWords_linked.c; sourceTree = "<group>"; };
+		A5D2B83F15CEEA80002209B5 /* input.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
+		A5D2B84015CEEA85002209B5 /* example_output.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example_output.dat; sourceTree = "<group>"; };
+		A5D2B87715CEF804002209B5 /* output.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.dat; path = build/Debug/output.dat; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* CommonWords.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommonWords.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBB615CFF42A00CC3D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBBF15CFF43E00CC3D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBFC15CFF59700CC3D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBC0B15CFF60B00CC3D00 /* libword.dylib in Frameworks */,
+				A5BDBC0C15CFF60B00CC3D00 /* libword.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* CommonWords */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = CommonWords;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */,
+				A5D2B84015CEEA85002209B5 /* example_output.dat */,
+				A5D2B83F15CEEA80002209B5 /* input.dat */,
+				08FB7796FE84155DC02AAC07 /* CommonWords_main.c */,
+				A5BDBBAF15CFF3FF00CC3D00 /* libword */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D2B87715CEF804002209B5 /* output.dat */,
+				8DD76FB20486AB0100D96B5E /* CommonWords */,
+				A5BDBBB815CFF42A00CC3D00 /* libword.dylib */,
+				A5BDBBC115CFF43E00CC3D00 /* libword.a */,
+				A5BDBBFE15CFF59700CC3D00 /* CommonWords_linked */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BDBBAF15CFF3FF00CC3D00 /* libword */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDBBD315CFF4B500CC3D00 /* libword.h */,
+				A5BDBBD415CFF4B500CC3D00 /* libword.c */,
+			);
+			name = libword;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* CommonWords.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5BDBBB415CFF42A00CC3D00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBBD515CFF4B500CC3D00 /* libword.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBBD15CFF43E00CC3D00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBBD715CFF4B500CC3D00 /* libword.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* CommonWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "CommonWords" */;
+			buildPhases = (
+				A5D2B84D15CEEBC0002209B5 /* CopyFiles */,
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonWords;
+			productInstallPath = "$(HOME)/bin";
+			productName = CommonWords;
+			productReference = 8DD76FB20486AB0100D96B5E /* CommonWords */;
+			productType = "com.apple.product-type.tool";
+		};
+		A5BDBBB715CFF42A00CC3D00 /* libword_dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDBBCF15CFF47700CC3D00 /* Build configuration list for PBXNativeTarget "libword_dynamic" */;
+			buildPhases = (
+				A5BDBBB415CFF42A00CC3D00 /* Headers */,
+				A5BDBBB515CFF42A00CC3D00 /* Sources */,
+				A5BDBBB615CFF42A00CC3D00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libword_dynamic;
+			productName = libword;
+			productReference = A5BDBBB815CFF42A00CC3D00 /* libword.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A5BDBBC015CFF43E00CC3D00 /* libword_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDBBD015CFF47700CC3D00 /* Build configuration list for PBXNativeTarget "libword_static" */;
+			buildPhases = (
+				A5BDBBBD15CFF43E00CC3D00 /* Headers */,
+				A5BDBBBE15CFF43E00CC3D00 /* Sources */,
+				A5BDBBBF15CFF43E00CC3D00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libword_static;
+			productName = libword_static;
+			productReference = A5BDBBC115CFF43E00CC3D00 /* libword.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5BDBBFD15CFF59700CC3D00 /* CommonWords_linked */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDBC0415CFF5B500CC3D00 /* Build configuration list for PBXNativeTarget "CommonWords_linked" */;
+			buildPhases = (
+				A5BDBBFB15CFF59700CC3D00 /* Sources */,
+				A5BDBBFC15CFF59700CC3D00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BDBC0A15CFF5F700CC3D00 /* PBXTargetDependency */,
+				A5BDBC0815CFF5F700CC3D00 /* PBXTargetDependency */,
+			);
+			name = CommonWords_linked;
+			productName = CommonWords_linked;
+			productReference = A5BDBBFE15CFF59700CC3D00 /* CommonWords_linked */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "CommonWords" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* CommonWords */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* CommonWords */,
+				A5BDBBB715CFF42A00CC3D00 /* libword_dynamic */,
+				A5BDBBC015CFF43E00CC3D00 /* libword_static */,
+				A5BDBBFD15CFF59700CC3D00 /* CommonWords_linked */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* CommonWords_main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBB515CFF42A00CC3D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBBD615CFF4B500CC3D00 /* libword.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBBE15CFF43E00CC3D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBBD815CFF4B500CC3D00 /* libword.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDBBFB15CFF59700CC3D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDBC0615CFF5BB00CC3D00 /* CommonWords_linked.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BDBC0815CFF5F700CC3D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BDBBC015CFF43E00CC3D00 /* libword_static */;
+			targetProxy = A5BDBC0715CFF5F700CC3D00 /* PBXContainerItemProxy */;
+		};
+		A5BDBC0A15CFF5F700CC3D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BDBBB715CFF42A00CC3D00 /* libword_dynamic */;
+			targetProxy = A5BDBC0915CFF5F700CC3D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = CommonWords;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = CommonWords;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_OPENMP_SUPPORT = YES;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				LD_GENERATE_MAP_FILE = YES;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.6;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A5BDBBB915CFF42B00CC3D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libword;
+			};
+			name = Debug;
+		};
+		A5BDBBBA15CFF42B00CC3D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libword;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5BDBBC215CFF43F00CC3D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libword;
+			};
+			name = Debug;
+		};
+		A5BDBBC315CFF43F00CC3D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = libword_static;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A5BDBC0015CFF59700CC3D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = CommonWords_linked;
+			};
+			name = Debug;
+		};
+		A5BDBC0115CFF59700CC3D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = CommonWords_linked;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "CommonWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "CommonWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDBBCF15CFF47700CC3D00 /* Build configuration list for PBXNativeTarget "libword_dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDBBB915CFF42B00CC3D00 /* Debug */,
+				A5BDBBBA15CFF42B00CC3D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDBBD015CFF47700CC3D00 /* Build configuration list for PBXNativeTarget "libword_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDBBC215CFF43F00CC3D00 /* Debug */,
+				A5BDBBC315CFF43F00CC3D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDBC0415CFF5B500CC3D00 /* Build configuration list for PBXNativeTarget "CommonWords_linked" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDBC0015CFF59700CC3D00 /* Debug */,
+				A5BDBC0115CFF59700CC3D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
