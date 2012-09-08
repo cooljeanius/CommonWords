@@ -16,6 +16,8 @@
 		A5BDBC0615CFF5BB00CC3D00 /* CommonWords_linked.c in Sources */ = {isa = PBXBuildFile; fileRef = A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */; };
 		A5BDBC0B15CFF60B00CC3D00 /* libword.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BDBBB815CFF42A00CC3D00 /* libword.dylib */; };
 		A5BDBC0C15CFF60B00CC3D00 /* libword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BDBBC115CFF43E00CC3D00 /* libword.a */; };
+		A5BE195515FB9B4F00BDBB9E /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BE195415FB9B4F00BDBB9E /* config.h */; };
+		A5BE195615FB9B4F00BDBB9E /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BE195415FB9B4F00BDBB9E /* config.h */; };
 		A5D2B84815CEEB1E002209B5 /* input.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5D2B83F15CEEA80002209B5 /* input.dat */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +26,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5BDBBC015CFF43E00CC3D00 /* libword_static */;
+			remoteGlobalIDString = A5BDBBC015CFF43E00CC3D00;
 			remoteInfo = libword_static;
 		};
 		A5BDBC0915CFF5F700CC3D00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5BDBBB715CFF42A00CC3D00 /* libword_dynamic */;
+			remoteGlobalIDString = A5BDBBB715CFF42A00CC3D00;
 			remoteInfo = libword_dynamic;
 		};
 /* End PBXContainerItemProxy section */
@@ -60,18 +62,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08FB7796FE84155DC02AAC07 /* CommonWords_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonWords_main.c; sourceTree = "<group>"; };
+		08FB7796FE84155DC02AAC07 /* CommonWords_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CommonWords_main.c; path = src/CommonWords_main.c; sourceTree = "<group>"; };
 		8DD76FB20486AB0100D96B5E /* CommonWords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonWords; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BDBBB815CFF42A00CC3D00 /* libword.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libword.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BDBBC115CFF43E00CC3D00 /* libword.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libword.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5BDBBD315CFF4B500CC3D00 /* libword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libword.h; sourceTree = "<group>"; };
-		A5BDBBD415CFF4B500CC3D00 /* libword.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libword.c; sourceTree = "<group>"; };
+		A5BDBBD315CFF4B500CC3D00 /* libword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libword.h; path = src/libword.h; sourceTree = "<group>"; };
+		A5BDBBD415CFF4B500CC3D00 /* libword.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libword.c; path = src/libword.c; sourceTree = "<group>"; };
 		A5BDBBFE15CFF59700CC3D00 /* CommonWords_linked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonWords_linked; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommonWords_linked.c; sourceTree = "<group>"; };
+		A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CommonWords_linked.c; path = src/CommonWords_linked.c; sourceTree = "<group>"; };
+		A5BE195315FB9B2600BDBB9E /* ABOUT-NLS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ABOUT-NLS"; sourceTree = "<group>"; };
+		A5BE195415FB9B4F00BDBB9E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		A5D2B83F15CEEA80002209B5 /* input.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.dat; sourceTree = "<group>"; };
 		A5D2B84015CEEA85002209B5 /* example_output.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example_output.dat; sourceTree = "<group>"; };
 		A5D2B87715CEF804002209B5 /* output.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.dat; path = build/Debug/output.dat; sourceTree = "<group>"; };
-		C6A0FF2C0290799A04C91782 /* CommonWords.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommonWords.1; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* CommonWords.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = CommonWords.1; path = doc/CommonWords.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A5BE195415FB9B4F00BDBB9E /* config.h */,
 				A5BDBC0515CFF5BB00CC3D00 /* CommonWords_linked.c */,
 				A5D2B84015CEEA85002209B5 /* example_output.dat */,
 				A5D2B83F15CEEA80002209B5 /* input.dat */,
@@ -154,6 +159,7 @@
 		C6A0FF2B0290797F04C91782 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				A5BE195315FB9B2600BDBB9E /* ABOUT-NLS */,
 				C6A0FF2C0290799A04C91782 /* CommonWords.1 */,
 			);
 			name = Documentation;
@@ -167,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BDBBD515CFF4B500CC3D00 /* libword.h in Headers */,
+				A5BE195515FB9B4F00BDBB9E /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BDBBD715CFF4B500CC3D00 /* libword.h in Headers */,
+				A5BE195615FB9B4F00BDBB9E /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
