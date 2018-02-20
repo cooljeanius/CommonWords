@@ -3,3 +3,4 @@ compile linguist-vendored
 config.rpath linguist-vendored
 install-sh linguist-vendored
 missing linguist-vendored
+Makefile.in linguist-vendored
