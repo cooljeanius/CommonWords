@@ -1,0 +1,5 @@
+aclocal.m4 linguist-vendored
+compile linguist-vendored
+config.rpath linguist-vendored
+install-sh linguist-vendored
+missing linguist-vendored
