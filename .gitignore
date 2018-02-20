@@ -13,4 +13,9 @@ Debug/*
 *.a
 *.dylib
 *.out
-
+Makefile
+*.cache
+stamp-h1
+*.log
+config.h
+config.status
