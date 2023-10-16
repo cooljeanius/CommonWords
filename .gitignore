@@ -19,3 +19,7 @@ stamp-h1
 *.log
 config.h
 config.status
+.deps/*.Po
+*/.deps/*.Po
+CommonWords
+*.dirstamp

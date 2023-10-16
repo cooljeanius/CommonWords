@@ -1,3 +1,7 @@
+bin_PROGRAMS = CommonWords
+
+CommonWords_SOURCES = src/CommonWords_main.c
+
 DISTCLEANFILES = *~ *.log
 
 distclean-local:
